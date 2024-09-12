@@ -13,7 +13,15 @@ public class Company
     public void SearchCompanyCode() {
         var start = DateTime.Now;
         Console.WriteLine($"Start task for {CompanyCode}");
-        var delay = (int)Random.Shared.NextInt64(3000, 20000);
+        /*
+        The delay simulates the work for each company.
+        By setting it to a constant 5000 ms (5 seconds)
+        all the 6 companies finish after only 5 seconds
+        instead of each company running 5 seconds by run
+        one after another which would mean it would take 
+        30 seconds for all companies to complete
+        */
+        var delay = 5000; //(int)Random.Shared.NextInt64(3000, 20000);
         Console.WriteLine($"{CompanyCode}: delay {delay / 1000} seconds.");
         Thread.Sleep(delay);
         var company = DataStore.Companies.SingleOrDefault(c => c.Code == CompanyCode);

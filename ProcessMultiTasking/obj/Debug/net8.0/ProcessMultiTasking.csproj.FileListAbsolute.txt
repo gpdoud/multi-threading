@@ -12,3 +12,4 @@
 /Users/gpdoud/Repos/multi-threading/ProcessMultiTasking/obj/Debug/net8.0/ProcessMultiTasking.pdb
 /Users/gpdoud/Repos/multi-threading/ProcessMultiTasking/obj/Debug/net8.0/ProcessMultiTasking.genruntimeconfig.cache
 /Users/gpdoud/Repos/multi-threading/ProcessMultiTasking/obj/Debug/net8.0/ref/ProcessMultiTasking.dll
+/Users/gpdoud/Repos/multi-threading/ProcessMultiTasking/obj/Debug/net8.0/ProcessMultiTasking.sourcelink.json
